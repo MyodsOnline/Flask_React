@@ -1,9 +1,10 @@
 import './App.css';
 import React from 'react';
 import Profile from './Profile';
+import SearchSpeaker from './SearchSpeaker/SearchSpeaker';
 
 
-function SpreakerProfile(props) {
+const SpreakerProfile = (props) => {
   return(
     <>
       <h3>Staff: {props.name}</h3>
@@ -23,6 +24,7 @@ function App() {
           jobTitle='St.Dispatcher'
           role='Main Place'
         />
+      <SearchSpeaker />
       <Profile />
     </div>
   );
