@@ -2,3 +2,4 @@
 venv
 .env
 tracker.json
+__pycache__
