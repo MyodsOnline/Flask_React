@@ -2,6 +2,9 @@ import './App.css';
 import React from 'react';
 import Profile from './Profile';
 import SearchSpeaker from './SearchSpeaker/SearchSpeaker';
+import BrakeLine from './Utils/utils';
+import Counter from './Utils/Counter';
+import Dashboard from './LoginLogout/LoginLogout';
 
 
 const SpreakerProfile = (props) => {
@@ -24,8 +27,13 @@ function App() {
           jobTitle='St.Dispatcher'
           role='Main Place'
         />
+        <BrakeLine />
       <SearchSpeaker />
       <Profile />
+        <BrakeLine />
+      <Counter />
+        <BrakeLine />
+      <Dashboard />
     </div>
   );
 }
