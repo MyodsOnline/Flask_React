@@ -5,7 +5,9 @@ import SearchSpeaker from './SearchSpeaker/SearchSpeaker';
 import BrakeLine from './Utils/utils';
 import Counter from './Utils/Counter';
 import Dashboard from './LoginLogout/LoginLogout';
-
+import UseEffectExample1 from './useEffectExample/useEffectExOne';
+import UseEffectExampleTwo from './useEffectExample/useEffectExTwo';
+import useContextExampleOne from './useContextExamples/useContextExOne';
 
 const SpreakerProfile = (props) => {
   return(
@@ -34,6 +36,12 @@ function App() {
       <Counter />
         <BrakeLine />
       <Dashboard />
+        <BrakeLine />
+      <UseEffectExample1 />
+        <BrakeLine />
+      <UseEffectExampleTwo />
+        <BrakeLine />
+      <useContextExampleOne />
     </div>
   );
 }
