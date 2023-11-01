@@ -7,7 +7,8 @@ import Counter from './Utils/Counter';
 import Dashboard from './LoginLogout/LoginLogout';
 import UseEffectExample1 from './useEffectExample/useEffectExOne';
 import UseEffectExampleTwo from './useEffectExample/useEffectExTwo';
-import useContextExampleOne from './useContextExamples/useContextExOne';
+import ChapterFour from './Utils/fetching';
+import AboutJSX from './Utils/aboutJsx';
 
 const SpreakerProfile = (props) => {
   return(
@@ -15,6 +16,7 @@ const SpreakerProfile = (props) => {
       <h3>Staff: {props.name}</h3>
       <p>Position: {props.jobTitle}</p>
       <p>Job role: {props.role}</p>
+      <i>{5+5}</i>
     </>
   );
 }
@@ -41,7 +43,10 @@ function App() {
         <BrakeLine />
       <UseEffectExampleTwo />
         <BrakeLine />
-      <useContextExampleOne />
+      <ChapterFour />
+        <BrakeLine />
+      <AboutJSX />
+        <BrakeLine />
     </div>
   );
 }
