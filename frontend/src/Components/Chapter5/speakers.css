@@ -1,0 +1,9 @@
+.repr {
+    display: flex;
+    justify-content: space-around;
+    background: aliceblue;
+}
+
+.speakerInfo {
+    text-align: center;
+}
