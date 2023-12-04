@@ -9,6 +9,7 @@ import UseEffectExample1 from './useEffectExample/useEffectExOne';
 import UseEffectExampleTwo from './useEffectExample/useEffectExTwo';
 import ChapterFour from './Utils/fetching';
 import AboutJSX from './Utils/aboutJsx';
+import SpeakersPage from './chapter6/pages/SpearersPage/SpeakersPage';
 
 const SpreakerProfile = (props) => {
   return(
